@@ -5,6 +5,10 @@ import junit.framework.ComparisonFailure;
 import junit.framework.TestCase;
 
 public class AssertTest extends TestCase {
+    
+    public void test보고있다(){
+        assertEquals(1, 1);
+    }
 
     /* In the tests that follow, we can't use standard formatting
       * for exception tests:
